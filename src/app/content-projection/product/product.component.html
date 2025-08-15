@@ -1,0 +1,10 @@
+<p>product works!</p>
+<div>
+   <ng-content></ng-content>
+    <ul>
+    @for(product of products; track $index){
+        <li>{{product.name}}</li>
+    }
+    </ul>
+</div>    
+
