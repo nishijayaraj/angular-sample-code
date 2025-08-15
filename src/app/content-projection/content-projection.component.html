@@ -1,8 +1,10 @@
 <p>content-projection works!</p>
-<app-product [products]="salesProducts">
-    <h3> Products on Sale</h3>
+<app-product [products]="salesProducts" class="widget">
+    <h3 class="header"> Products on Sale</h3>
+    <a href="" class="link">Click here</a>
 </app-product>
-<app-product [products]="recentProducts">
-    <h3>Recent Purchases</h3>
+<app-product [products]="recentProducts" class="widget">
+    <h3 class="header">Recent Purchases</h3>
+    <a href="" class="link">See More</a>
 </app-product>
 
