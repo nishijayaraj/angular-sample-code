@@ -8,6 +8,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 The working examples can be accessed at following urls
 
-[X] http://localhost:4200/cp
-[X] http://localhost:4200/service-example
-[]
+- [x] http://localhost:4200/cp \
+- [x] http://localhost:4200/service-example \
