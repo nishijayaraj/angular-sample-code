@@ -8,10 +8,17 @@ import { ContentProjectionComponent } from './content-projection/content-project
 import { appRoutes } from './app.routes';
 import { RouterModule } from '@angular/router';
 import { ProductComponent } from './content-projection/product/product.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ServiceExampleComponent } from './service-example/service-example.component';
 
 @NgModule({
-  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
-  declarations: [AppComponent, ContentProjectionComponent, ProductComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes),
+  ],
+  declarations: [AppComponent, ContentProjectionComponent, ProductComponent, ServiceExampleComponent],
   providers: [],
   bootstrap: [AppComponent],
 })
